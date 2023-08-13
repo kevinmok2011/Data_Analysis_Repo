@@ -1,5 +1,5 @@
 # Python_Excercise_Repo
-This is the exercise on using Pandas in Python to analyze data from DVD_Rental Database. The followings are the summary of this assignment - 
+This is the exercise on using Pandas in Python and SQL query to analyze data from the DVD_Rental Database. The followings are the summary of this assignment - 
 1. Create a time-series plot showing daily total revenue for three different countries with three countries in one plot (you will want matplotlib for this)
 2. Carry out a sentiment analysis on movie descriptions adding another column to the data frame that provides a sentiment classification. This can be based on a “rules based system” that you coded OR inference from a LLM such as using the API for chatgpt.
 3. Create a visual in the notebook that shows how much revenue is coming from different countries to the DVD store (you will want matplotlib).
