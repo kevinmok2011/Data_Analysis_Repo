@@ -4,5 +4,6 @@ JOIN film_actor fa ON a.actor_id = fa.actor_id
 JOIN inventory i on fa.film_id = i.film_id
 JOIN rental r on i.inventory_id = r.inventory_id
 JOIN payment p on r.rental_id = p.rental_id
-GROUP BY CONCAT(a.first_name, ' ', a.last_name)
+GROUP BY a.actor_id
 LIMIT 10;
+
